@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Galeria de Fotos
+    </header>
+
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Digite uma palavra-chave...">
+        <button onclick="filterPhotos()">
+            🔍
+        </button>
+    </div>
+
+    <div class="gallery" id="photo-gallery">
+        <div class="photo" data-name="Praia">
+            <img src="https://via.placeholder.com/200" alt="Praia">
+            <p class="photo-name">Praia</p>
+        </div>
+        <div class="photo" data-name="Montanha">
+            <img src="https://via.placeholder.com/200" alt="Montanha">
+            <p class="photo-name">Montanha</p>
+        </div>
+        <div class="photo" data-name="Floresta">
+            <img src="https://via.placeholder.com/200" alt="Floresta">
+            <p class="photo-name">Floresta</p>
+        </div>
+        <div class="photo" data-name="Cidade">
+            <img src="https://via.placeholder.com/200" alt="Cidade">
+            <p class="photo-name">Cidade</p>
+        </div>
+        <div class="photo" data-name="Deserto">
+            <img src="https://via.placeholder.com/200" alt="Deserto">
+            <p class="photo-name">Deserto</p>
+        </div>
+    </div>
+
+    <p class="no-results" id="no-results" style="display: none;">Nenhuma foto encontrada</p>
+
+    <footer>
+        © 2024 Galeria de Fotos. Todos os direitos reservados.
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
