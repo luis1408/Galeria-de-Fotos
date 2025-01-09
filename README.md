@@ -1,48 +1,5 @@
 # Galeria de Fotos
 
-Uma aplicação web simples para exibir uma galeria de fotos com funcionalidade de busca em tempo real.
-
-## Tecnologias Utilizadas
-
-*   HTML
-*   CSS
-*   JavaScript
-
-## Pré-requisitos
-
-*   Navegador web moderno (Chrome, Firefox, Edge, etc.)
-
-## Como executar
-
-1.  Clone o repositório:
-
-    ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    ```
-
-2.  Abra o arquivo `index.html` no seu navegador.
-
-## Funcionalidades
-
-*   Busca em tempo real por tags nas fotos.
-*   Mensagem "Nenhuma foto encontrada" caso a busca não retorne resultados.
-*   Efeito hover nas fotos.
-
-## Como Contribuir
-
-1.  Fork o repositório.
-2.  Crie um branch com sua feature: `git checkout -b feature/minha-feature`
-3.  Commit suas mudanças: `git commit -m 'Adiciona minha feature'`
-4.  Push para o branch: `git push origin feature/minha-feature`
-5.  Abra um Pull Request.
-
-## Licença
-
-[MIT](LICENSE)
-
-
-# Galeria de Fotos
-
 Uma aplicação web simples para exibir uma galeria de fotos, com funcionalidade de busca em tempo real.
 
 ## Tecnologias Utilizadas
